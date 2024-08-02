@@ -14,7 +14,7 @@ carlzfq@163.com
 
 I've always had a concern. I want to keep track of my to-dos and have them displayed on my desktop as a constant reminder. However, my colleagues frequently come by to discuss issues, and they always end up seeing my to-do list, which I’d rather keep private. So, I decided to create one myself—just something that works for my needs.
 
-![SHOW](.\doc\todo_1.png) ![HIDE](.\doc\todo_img.png)
+![SHOW](doc/todo_1.png) ![HIDE](doc/todo_img.png)
 
 ## 环境基础
 
