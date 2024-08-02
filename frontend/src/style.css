@@ -1,0 +1,25 @@
+html {
+    background-color: rgb(255, 255, 255);
+    /* text-align: center; */
+    color: black;
+}
+
+body {
+    margin: 0;
+    color: black;
+    font-family: Inter, 'Helvetica Neue', Helvetica, 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+}
+
+@font-face {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""),
+        url("assets/fonts/nunito-v16-latin-regular.woff2") format("woff2");
+}
+
+#app {
+    height: 100vh;
+    /* text-align: center; */
+}
