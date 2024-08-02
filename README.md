@@ -1,10 +1,20 @@
 # Scan App Using Wails
 
-## 联系人
+## Contacts
 
 ```
 carlzfq@163.com
 ```
+
+## 介绍
+
+我一直有一个困扰，我想记录我的代办任务，让代办任务在桌面上，时刻提醒着我；
+但是时常有同事到我这讨论问题，他们总会看到我的待办任务，我不想让他们看到。
+于是，自己写一个吧，够用就好。
+
+I've always had a concern. I want to keep track of my to-dos and have them displayed on my desktop as a constant reminder. However, my colleagues frequently come by to discuss issues, and they always end up seeing my to-do list, which I’d rather keep private. So, I decided to create one myself—just something that works for my needs.
+
+![SHOW](.\doc\todo_1.png) ![HIDE](.\doc\todo_img.png)
 
 ## 环境基础
 
@@ -35,10 +45,3 @@ wails dev -frontenddevserverurl "http://localhost:8080"
 #打包 .exe
 wails build
 ```
-
-## 设计思路
-
-1. 系统初始化：系统启动，初始化一个账户、初始化相关系统配置；
-2. 登录：分为无账号登录 and 鉴权登录
-   - 无账号登录：系统配置 autologin，则系统初始化启动不进入登录界面，直接进入主界面；且屏蔽相关登录操作事件；
-   - 鉴权登录：需要输入账号密码进行登录；
